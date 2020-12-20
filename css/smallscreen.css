@@ -1,0 +1,98 @@
+/*Responsive pour smartphone - en dessous de 995px */
+body{
+    margin: 0.5cm;
+    width: 100%;
+}
+header{
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.sinscrire{
+    position: fixed;
+    top: 40px;
+    left: 300px;
+}
+.nav{
+    border-bottom: 3px solid silver;
+    padding-bottom: 10px;
+    color: black;
+    margin: -40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.nav:hover{
+    color:#0065FC;
+    border-bottom:3px solid #0065FC;
+}
+
+.titre{
+    position: relative;
+    top: 70px;
+    bottom: 25px;
+    word-wrap:normal;
+    width: 70%;
+}
+.recherche{
+    position: relative;
+    top: 35px;
+    bottom:50px;   
+}
+.button{
+    position: fixed;
+    color:#0065FC;
+    border-radius:15px;
+    width:55px;
+    left: 300px;
+}
+.icosearch{
+    position:relative;
+    left: 15px;
+    top: 13px;
+    color:white;
+}
+.wdg-arialabelledby-hide{
+    position: absolute;
+    top: -10000px;
+}
+
+.formulaire{
+    width: 310px;
+}
+
+.filtres{
+    position: relative;
+    top: 35px;
+    flex-wrap: wrap;
+}
+.filtre{
+    position:relative;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 10px;
+    
+}
+.economique{
+    position: relative;
+    left: -65px;
+}
+.familial{
+    position: relative;
+    left: -50px;
+
+}
+.romantique{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.animaux{
+    position: relative;
+    margin-top: 20px;
+}
+.info{
+    position: relative;
+    top: 35px;
+    width: 70%;
+}

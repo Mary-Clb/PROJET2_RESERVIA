@@ -1,0 +1,192 @@
+@font-face{
+    font-family:'Raleway';
+        src:url('font/Raleway-Regular.ttf');
+        src:url('font/Raleway-Regular.woff') format('woff');
+}
+
+@font-face{
+    font-family:'Raleway-Bold';
+    src: url('font/Raleway-Bold.ttf');
+}
+/*Mise en page générale*/
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 52px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+
+/*Position logo + liens de navigations + Titre principal*/
+.logo {
+    position: relative;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+
+nav li{
+    margin-right: 62px;
+    margin-top: -100px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#0065FC;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+.logotitre img{
+    width: 100px;
+    height: 50px;
+
+}
+
+.logotitre h1{
+    font-size: 22px;
+    font-family: 'Raleway-Bold'; Arial; Helvetica, sans-serif;
+    margin-bottom: -10px;
+
+}
+
+
+/*Mise en page Formulaire*/
+.recherche{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 300px;
+}
+
+.map-icone{
+    background-color: #f2f2f2;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid #f2f2f2;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+    
+}
+.formulaire{
+    border: 1px solid #f2f2f2;
+    height: 46px;
+    font-family: 'Raleway-Bold';
+    font-size: 1em;
+    padding-left: 10px;
+}
+.button{
+    border: 1px solid #0065FC;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 49px;
+    background-color: #0065FC;
+    color: white;
+    font-family: 'Raleway-Bold';
+    font-size: 1em;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+.icosearch{
+    position: relative;
+    top:-10000px;
+}
+
+
+/*Mise en page de la section "Filtres" + phrase d'info*/
+.filtres {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Raleway-Bold';
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.filtre{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 50px;
+    border: 2px solid #c0c0c0;
+    border-radius: 30px;
+    height: 43px;
+}
+.icoeco{
+    margin: 20px 5px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: -3px;
+    margin-left: -5px;
+}
+.filtres p{
+    margin: 11px 11px 0px 5px;
+    text-align: center;
+}
+.icofam{
+    margin: 20px 5px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    text-align: center;
+    padding: 15px 18px 15px 18px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: -3px;
+    margin-left: -5px;
+    font-size: 0.9em;
+}
+.ico{
+    margin: 20px 5px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: -3px;
+    margin-left: -5px;
+}
+
+/*Mise en pages des sections filtres cliquables*/
+.filtrelien{
+    text-decoration: none;
+    color:black;
+}
+a.filtrelien:hover{
+    color: darkred;
+}
+
+/*Phrase info*/
+.info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.icoinfo{
+    border: 1px solid #c0c0c0;
+    color:#0065FC;
+    padding:5px 10px 5px 10px;
+    border-radius: 50px;
+    font-size: 0.8em;
+
+}
+.info p{
+    margin: 5px 0px 0px 10px;
+}
+
+
