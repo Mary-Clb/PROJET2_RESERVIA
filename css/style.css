@@ -11,20 +11,19 @@
 /*Mise en page générale*/
 body{
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    width: 100%;
-    margin: 52px;
+    margin: 50px;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 
-/*Position logo + liens de navigations + Titre principal*/
-.logo {
+/*Position logo + liens de navigations*/
+.imglogo {
     position: relative;
 }
 
@@ -36,7 +35,6 @@ nav ul{
 
 nav li{
     margin-right: 62px;
-    margin-top: -100px;
 }
 
 nav a{
@@ -47,27 +45,30 @@ nav a{
 nav a:hover{
     font-weight: bold;
 }
-
-.logotitre img{
-    width: 100px;
-    height: 50px;
-
+.hebergements{
+    border-top:3px solid #0065FC;
+    padding-top: 10px;
+}
+.activites{
+    color: black;
 }
 
-.logotitre h1{
-    font-size: 22px;
-    font-family: 'Raleway-Bold'; Arial; Helvetica, sans-serif;
-    margin-bottom: -10px;
-
+.titre{
+    line-height: 10px;
+    margin-bottom: 25px;
 }
-
+h1{
+    font-size: 1.3em;
+}
+h2{
+    font-size: 1.2em;
+}
 
 /*Mise en page Formulaire*/
-.recherche{
+.formulaire-recherche{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 300px;
 }
 
 .map-icone{
@@ -90,7 +91,7 @@ nav a:hover{
     border: 1px solid #0065FC;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-    height: 49px;
+    height: 50px;
     background-color: #0065FC;
     color: white;
     font-family: 'Raleway-Bold';
@@ -114,14 +115,25 @@ nav a:hover{
     margin-top: 30px;
     margin-bottom: 25px;
 }
+.titrefiltre{
+    position: relative;
+    margin-right: 20px;
+}
 .filtre{
+    position: relative;
     display: flex;
+    align-content: flex-start;
     align-items: flex-start;
-    justify-content: flex-start;
-    margin-left: 50px;
+    margin-right: 30px;
     border: 2px solid #c0c0c0;
     border-radius: 30px;
     height: 43px;
+}
+.filtres p{
+    margin: 11px 11px 0px 5px;
+}
+.titrefiltre{
+    
 }
 .icoeco{
     margin: 20px 5px;
@@ -134,10 +146,7 @@ nav a:hover{
     margin-top: -3px;
     margin-left: -5px;
 }
-.filtres p{
-    margin: 11px 11px 0px 5px;
-    text-align: center;
-}
+
 .icofam{
     margin: 20px 5px;
     background-color: #DEEBFF;
