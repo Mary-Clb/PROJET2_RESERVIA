@@ -14,12 +14,14 @@ body{
     margin: 25px;
     width: auto;
 }
-
 header{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 30px;
+}
+img{
+    object-fit: cover;
 }
 
 
@@ -27,22 +29,18 @@ header{
 .imglogo {
     position: relative;
 }
-
 nav ul{
     list-style-type: none;
     display: flex;
     position: relative;
 }
-
 nav li{
     margin-right: 62px;
 }
-
 nav a{
     text-decoration: none;
     color:#0065FC;
 }
-
 nav a:hover{
     font-weight: bold;
 }
@@ -53,7 +51,6 @@ nav a:hover{
 .activites{
     color: black;
 }
-
 .titre{
     line-height: 10px;
     margin-bottom: 25px;
@@ -71,15 +68,13 @@ h2{
     align-items: flex-start;
     justify-content: flex-start;
 }
-
 .map-icone{
     background-color: #f2f2f2;
     padding: 15px 15px 15px 15px;
     border: 1px solid #f2f2f2;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
-    text-align: center;
-    
+    text-align: center;   
 }
 .formulaire{
     border: 1px solid #f2f2f2;
@@ -195,7 +190,6 @@ a.filtrelien:hover{
     padding:5px 10px 5px 10px;
     border-radius: 50px;
     font-size: 0.8em;
-
 }
 .info p{
     margin: 5px 0px 0px 10px;
@@ -221,26 +215,26 @@ a.filtrelien:hover{
         background-color: #f2f2f2;
         border-radius: 15px;
         margin-top:15px;
-        margin-right:15px;
-        padding: 25px;
+        margin-right:25px;
+        padding: 35px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 5% 40% 40% 10%;
         align-items: space-between;
         row-gap: 25px;
         column-gap: 50px;
+        flex:1;
         
 }
 #hebergements-articles-grid a{
     text-decoration: none;
     color: black;
 }
-
 .article{
     background-color: white;
     border: 5px solid white;
     border-radius: 15px;
-    width: 210px;
+    width: 250px;
     line-height: 10px;
     height: fit-content;
     padding-bottom: 5px;
@@ -249,7 +243,7 @@ a.filtrelien:hover{
 .article img{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    width: 210px;
+    width: 250px;
     height: 110px;
 }
 .titre-section-hebergements{
@@ -301,14 +295,11 @@ a.filtrelien:hover{
     width: 310px;
     flex-direction: column;
     flex-wrap: nowrap;
-    
-
 }
 #les-plus-populaires-flex a{
     text-decoration: none;
     color: black;
 }
-
 .titre-aside{
     font-family: 'Raleway-Bold';
     position: relative;
@@ -354,7 +345,6 @@ a.filtrelien:hover{
     row-gap: 10px;
     margin-top: 25px;
 }
-
 .article3{
     border-radius: 15px;
     box-shadow: 0px 2px 5px silver;
@@ -439,6 +429,5 @@ footer{
 .nav a{
     text-decoration: none;
     color: black;
-    font-size: 0.8em;
-    
+    font-size: 0.8em;   
 }
