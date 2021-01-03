@@ -1,7 +1,7 @@
 /*Responsive pour smartphone - en dessous de 768px */
 body{
-    margin:15px;
-    width: fit-content;
+    margin:10px 0px 10px 10px;
+    width:auto ;
 }
 header{
     flex-direction: column;
@@ -108,7 +108,7 @@ header{
 #les-plus-populaires-flex{
     margin: 50px -15px 0px -15px;
     border-radius: 0px;
-    width: 90%;
+    width: 95%;
 }
 .article2{
     margin-bottom: 20px;
