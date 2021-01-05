@@ -1,6 +1,6 @@
 /*Responsive pour smartphone - en dessous de 768px */
 .container{
-    max-width:500px;
+    max-width:700px;
     min-width: 350px;
     margin: auto;
 }
@@ -19,12 +19,13 @@ main{
     margin:auto;
 }
 .menulien{
+    
     border-bottom: 3px solid silver;
     padding-bottom: 10px;
     color: black;
-    padding-left: 85px;
-    padding-right: 85px;
-    margin-left: -35px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-left: -70px;
 }
 .menulien:hover{
     color:#0065FC;
@@ -36,7 +37,18 @@ main{
 .sinscrire{
     position: absolute;
     top: 25px;
-    left: 400px;
+    left: 300px;
+}
+.formulaire{
+    position: relative;
+    width: 250px;
+}
+.button{
+    position: absolute;
+    color:#0065FC;
+    border-radius:15px;
+    width:60px;
+    left: 260px;   
 }
 .filtres{
     display: flex;
@@ -45,18 +57,12 @@ main{
 .titre{
     line-height: 1.2em;
 }
-.button{
-    position: absolute;
-    color:#0065FC;
-    border-radius:15px;
-    width:60px;
-    left: 230px;   
-}
+
 .icosearch{
     position: absolute;
     color: white;
     top:255px;
-    left: 252px;
+    left: 280px;
 }
 .txt-search-hide{
     position: absolute;
@@ -64,70 +70,91 @@ main{
 }
 
 .filtres{
+    min-width: 320px;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .filtre{
-    flex-direction: row;
     top: 50px;
     margin-top: 15px;
+    max-width: 150px;
 }
 .titrefiltre{
     position: absolute;
 }
 .info{
-    margin-top: 70px;
+    margin-top: 80px;
 }
+main{
+    display: flex;
+    flex-direction: column;
+}
+
 .hebergements-et-aside-flex{
-    margin-top: 1500px;
     display: flex;
     flex-direction: column-reverse;
+    position: relative;
+    top: 1450px;
+    max-width: 350px;
 }
 .les-plus-populaires-flex{
-    max-width: 500px;
+    width:95%;
+    padding: 0px 0px 10px 0px;
+    align-items: center;
     border-radius: 0px;
-    margin: -5px
+}
+.ico-lineup{
+    left: 250px;
 }
 .article2{
-    max-width: 90%;
-    margin-bottom: 10px;
+    max-width: 280px;
+
+}
+.titre-aside{
+    width:80%;
 }
 .hebergements-articles-grid{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
-    min-width: 450px;
-    max-width: 500px;
     margin: auto;
+    padding: 0px 0px 0px 0px;
+    min-width: 320px;
+    max-width: 320px;
+    align-items: center;
     background-color: white;
+
 }
 .article{
-    width: 90%;
-    margin: auto;
+    max-width: 280px;
     margin-bottom: 10px;
 }
+
 .section-activites-marseille-grid{
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: 1420px;
+    min-width: 320px;
+    max-width: 320px;
     align-items: center;
-    margin: 10px 25px 10px 25px;
-    min-width: 450px;
-    max-width: 500px;
 }
 .article3{
-    max-height: 200px;
-    max-width: 90%;
+    max-width: 95%;
+    max-height: 240px;
+
 }
 .article3 img{
-    max-height: 150px;
+    max-height: 200px;
+}
+
+footer {
+    position:relative;
+    top: 1400px;
 }
 footer .container{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
-
-}
-footer{
-    min-width: 570px;
-
+    align-items: flex-start;
+    margin-left: 45px;
+    padding-right: 40px;
 }
