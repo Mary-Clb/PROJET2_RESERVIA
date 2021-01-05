@@ -1,0 +1,133 @@
+/*Responsive pour smartphone - en dessous de 768px */
+.container{
+    max-width:500px;
+    min-width: 350px;
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.menu{
+    margin:auto;
+}
+.menulien{
+    border-bottom: 3px solid silver;
+    padding-bottom: 10px;
+    color: black;
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-left: -35px;
+}
+.menulien:hover{
+    color:#0065FC;
+    border-bottom:3px solid #0065FC;
+}
+.hebergements{
+    border-top:none;
+}
+.sinscrire{
+    position: absolute;
+    top: 25px;
+    left: 400px;
+}
+.filtres{
+    display: flex;
+    flex-direction: row;
+}
+.titre{
+    line-height: 1.2em;
+}
+.button{
+    position: absolute;
+    color:#0065FC;
+    border-radius:15px;
+    width:60px;
+    left: 230px;   
+}
+.icosearch{
+    position: absolute;
+    color: white;
+    top:255px;
+    left: 252px;
+}
+.txt-search-hide{
+    position: absolute;
+    top: -10000px;
+}
+
+.filtres{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.filtre{
+    flex-direction: row;
+    top: 50px;
+    margin-top: 15px;
+}
+.titrefiltre{
+    position: absolute;
+}
+.info{
+    margin-top: 70px;
+}
+.hebergements-et-aside-flex{
+    margin-top: 1500px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.les-plus-populaires-flex{
+    max-width: 500px;
+    border-radius: 0px;
+    margin: -5px
+}
+.article2{
+    max-width: 90%;
+    margin-bottom: 10px;
+}
+.hebergements-articles-grid{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    min-width: 450px;
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+}
+.article{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.section-activites-marseille-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 25px 10px 25px;
+    min-width: 450px;
+    max-width: 500px;
+}
+.article3{
+    max-height: 200px;
+    max-width: 90%;
+}
+.article3 img{
+    max-height: 150px;
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+}
+footer{
+    min-width: 570px;
+
+}
