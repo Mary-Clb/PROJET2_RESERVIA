@@ -19,12 +19,11 @@ main{
     margin:auto;
 }
 .menulien{
-    
     border-bottom: 3px solid silver;
     padding-bottom: 10px;
     color: black;
-    padding-left: 65px;
-    padding-right: 65px;
+    padding-left: 80px;
+    padding-right: 80px;
     margin-left: -70px;
 }
 .menulien:hover{
@@ -85,33 +84,26 @@ main{
 .info{
     margin-top: 80px;
 }
-main{
-    display: flex;
-    flex-direction: column;
-}
-
-.hebergements-et-aside-flex{
-    display: flex;
-    flex-direction: column-reverse;
-    position: relative;
-    top: 1500px;
-    max-width: 350px;
-}
 .les-plus-populaires-flex{
-    width:95%;
+    width:100%;
     padding: 0px 0px 10px 0px;
     align-items: center;
     border-radius: 0px;
-}
-.ico-lineup{
-    left: 130px;
+    margin-top: 40px;
 }
 .article2{
     max-width: 90%;
-
 }
 .titre-aside{
     width:80%;
+}
+.ico-lineup{
+    left: 180px;
+}
+.hebergements-et-aside-flex{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 92em;
 }
 .hebergements-articles-grid{
     display: flex;
@@ -122,18 +114,14 @@ main{
     max-width: 320px;
     align-items: center;
     background-color: white;
-
 }
 .article{
     max-width: 280px;
     margin-bottom: 10px;
 }
-
 .section-activites-marseille-grid{
     display: flex;
     flex-direction: column;
-    position: relative;
-    top: 1460px;
     min-width: 320px;
     max-width: 320px;
     align-items: center;
@@ -145,11 +133,6 @@ main{
 }
 .article3 img{
     max-height: 200px;
-}
-
-footer {
-    position:relative;
-    top: 1450px;
 }
 footer .container{
     display: flex;
