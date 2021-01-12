@@ -14,7 +14,6 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
 }
 img{
     object-fit: cover;
@@ -24,43 +23,41 @@ img{
     margin:auto;
 }
 
+
 /*Position logo + liens de navigations*/
 .imglogo {
     margin-right: auto;
 }
+
 .sinscrire{
     color: #0065FC;
     text-decoration: none;
-    margin-bottom: 15px;
+    margin-left: 66px;
 }
 .sinscrire:hover{
     font-weight: bold;
 }
-.menu{
-    margin-left:63%;
-}
 nav ul{
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
 }
 nav a{
     text-decoration: none;
     color:#0065FC;
-    
 }
 nav a:hover{
     font-weight: bold;
 }
 .hebergements{
     border-top:3px solid #0065FC;
-    padding-top: 10px;
-    margin-right:35px;
+    padding-top: 20px;
 }
 .activites{
     color: black;
+    margin-left: 66px;
 }
 .titre{
-    line-height: 10px;
     margin: 25px 0px 30px 0px
 }
 h1{
@@ -121,20 +118,20 @@ h2{
     width: 80%;
 }
 .filtre{
-    position: relative;
     display: flex;
     align-content: flex-start;
     align-items: flex-start;
     border: 2px solid #c0c0c0;
     border-radius: 30px;
     height: 44px;
-    min-width: 140px;
+    margin-left: 10px;
 }
 .filtres p{
-    padding-right:5px;
+    padding-right: 10px;
     margin: auto;
     flex-wrap: wrap;
 }
+
 .ico{
     margin: 20px 5px;
     background-color: #DEEBFF;
@@ -200,15 +197,14 @@ a.filtrelien:hover{
 .hebergements-articles-grid{
         background-color: #f2f2f2;
         border-radius: 15px;
-        margin-right:25px;
+        margin-right: 40px;
         padding: 35px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 5% 40% 40% 10%;
-        row-gap: 5%;
-        column-gap: 5%;
-        min-width: 600px;
-        
+        row-gap: 20px;
+        column-gap: 40px;
+        align-items: center;       
 }
 .hebergements-articles-grid a{
     text-decoration: none;
@@ -218,7 +214,7 @@ a.filtrelien:hover{
     background-color: white;
     border: 3px solid white;
     border-radius: 15px;
-    line-height: 10px;
+    line-height: 1.25;
     min-width: 150px;
     height: fit-content;
     padding-bottom: 5px;
@@ -228,12 +224,13 @@ a.filtrelien:hover{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
-    max-height: 150px;
+    height: 150px;
 }
 .titre-section-hebergements{
     font-family:'Raleway-Bold';
     grid-column: 1/span 2;
     grid-row: 1/2;
+
 }
 .no1{
     grid-column: 1/2;
@@ -263,8 +260,6 @@ a.filtrelien:hover{
     grid-column: 1/2;
     grid-row: 4/5;
     font-size: 1.1em;
-    position: relative;
-    bottom: 20px;
 
 }
 
@@ -273,11 +268,9 @@ a.filtrelien:hover{
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
-    min-width: 350px;
+    min-width: 25%;
     border-radius: 15px;
     padding: 0px 20px 0px 20px;
-    margin: auto;
-    height:100%;
     
 }
 .les-plus-populaires-flex a{
@@ -286,15 +279,13 @@ a.filtrelien:hover{
 }
 .titre-aside{
     font-family: 'Raleway-Bold';
-    position: relative;
-    top: 25px;
 }
 .article2{
-    margin-top: 25px;
+    margin-top: 35px;
     background-color: white;
     border: 3px solid white;
     border-radius: 15px;
-    height: 130px;
+    height: 150px;
     min-width: 200px;
     box-shadow: 0px 2px 5px silver;
 }
@@ -303,7 +294,7 @@ a.filtrelien:hover{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     width: 45%;
-    height: 130px;
+    height: 100%;
     float: left;
     margin-right: 15px;
 }
@@ -311,15 +302,17 @@ a.filtrelien:hover{
     margin: auto;
     display: flex;
     flex-direction: row;
-    height: 650px;
+    justify-content: space-between;
 }
 .ico-lineup{
-    position: relative;
-    bottom:25px;
-    left:300px;
     font-size: 1.3em;
     color: black;
     width: 25px;
+}
+.titreaside{
+    display: flex;
+    justify-content: space-between ;
+    margin-top: 15px;
 }
 
 /*Section Activités*/
@@ -327,19 +320,20 @@ a.filtrelien:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 40px auto auto 5px;
-    column-gap: 5%;
-    row-gap: 10px;
+    column-gap: 42px;
+    row-gap: 42px;
     margin-top: 25px;
+    padding: 25px
 }
 .article3{
     border-radius: 15px;
     box-shadow: 0px 2px 5px silver;
-    padding-bottom: 5px;
 }
 .article3 img{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width:100%;
+    height: 90%;
 }
 .article3 a{
     text-decoration: none;
@@ -380,16 +374,11 @@ a.filtrelien:hover{
     grid-row:3/4;
 }
 .ac1, .ac4{
-    height:440px; 
-}
-.ac1 img, .ac4 img{
-    height: 400px;
+    height: 420px;
 }
 .ac2, .ac3, .ac5, .ac6{
-    height: 200px;
-}
-.ac2 img, .ac3 img, .ac5 img, .ac6 img{
-    height: 160px;
+    height: 170px;
+    padding-bottom: 20px;
 }
 
 /*footer*/
@@ -410,6 +399,11 @@ footer{
     font-size: 0.8em;
 }
 footer .container{
-    display:flex;
-    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.menufooter{
+    width: 33%;
+    text-align: left;
 }
