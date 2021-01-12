@@ -12,16 +12,17 @@ nav ul{
     width: 100%;
 }
 nav li{
-    width: 50%;
+    width: 100%;
     margin-left: -10px;
+    
 }
 
-.menulien{
+.menulien{  
     border-bottom: 3px solid silver;
     padding-bottom: 10px;
     color: black;
     padding-left: 60px;
-    padding-right: 65px;
+    padding-right: 60px;
 }
 .menulien:hover{
     color:#0065FC;
@@ -30,6 +31,7 @@ nav li{
 .hebergements{
     border-top:none;
     padding-top: inherit;
+    width: 50%;
 }
 
 .sinscrire{
@@ -46,7 +48,7 @@ nav li{
     border-bottom: inherit;
 }
 .activites{
-    margin-left: 40px;
+    margin-left: 10px;
 }
 nav ul{
     padding-left: inherit;
