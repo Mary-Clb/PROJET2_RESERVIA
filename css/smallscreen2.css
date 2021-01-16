@@ -1,20 +1,35 @@
     /*Responsive pour smartphone - en dessous de 768px */
+
+
 .container{
     max-width: 100%;
     margin: auto;
 }
+
 header{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
-
+.imglogo{
+    padding-left: 5px;
+}
+.hautdepage{
+    padding-left: 5px;
+}
 
     /*MENU MOBILE*/
+nav{
+    padding: inherit;
+}
+nav ul{
+    padding-left: inherit;
+}
 .sinscrire{
+    display: block;
     position: absolute;
-    top:25px;
+    top: 15px;
+    left: inherit;
     right: 20px;
     border: none;
     font-family: 'Raleway-Bold';
@@ -24,78 +39,25 @@ header{
     border-top: none;
     padding-top: inherit;
 }
-.div-hebergements{
-    margin-left: -10px;
-}
-.activites{
-    margin-left: inherit;
-}
-.div-activites{
-    margin-right: -10px;
-}
-.menumobile{
-    width: 100%;
+.menulien{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     border-bottom: 3px solid silver;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 100%;
 }
-nav ul{
-    padding: 0px;
-}
-.lienmob:hover{
+.menulien:hover{
     border-bottom: 3px solid #0065FC;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
-.lienmob{
-    padding-left: 52px;
-    padding-right: 52px;
+.activites{
+    margin: inherit;
 }
-/*ANCIENNE CONFIGURATION SANS LA DIV MENUMOBILE
-            .menu{
-                margin: auto;
-                justify-content: space-between;
-            }
-            nav ul{
-                width: 98%;
-                padding-left: inherit;
-                border-bottom: 3px solid silver;
-                padding-bottom: 10px;
-            }
-            nav li{
-                width: 50%;
-            }
-            .menulien{ 
-                border-bottom: 3px solid silver;
-                padding-bottom: 10px;
-            }
-            .menulien:hover{
-                color:#0065FC;
-                border-bottom:3px solid #0065FC;
-                padding-bottom: 10px;
-            }
-            .hebergements{
-                position: relative;
-                border-top:none;
-                padding-top: inherit;
-            }
-            .sinscrire{
-                position: absolute;
-                top:25px;
-                right: 20px;
-                border: none;
-                font-family: 'Raleway-Bold';
-                color: #0065FC;
-                margin-left: inherit;
-                padding: inherit;
-            }
-            .sinscrire:hover{
-                border-bottom: inherit;
-            }
-            .activites{
-                margin-left: 20px;
-            }
-            ANCIENNE CONFIGURATION SANS LA DIV MENUMOBILE*/
+
+
+
 
 .titre{
     margin: inherit;
@@ -134,6 +96,7 @@ nav ul{
     line-height: 1.2em;
 }
 .icosearch{
+    display: inherit;
     position: absolute;
     color: white;
     top:14px;
@@ -153,6 +116,7 @@ nav ul{
     position: relative;
     top: 50px;
     margin-top: 15px;
+    margin-left: 15px;
 }
 .titrefiltre{
     position: absolute;
@@ -163,8 +127,9 @@ nav ul{
     /* SECTION LES PLUS POPULAIRES + HEBERGEMENTS*/
 .les-plus-populaires-flex{
     width: 100%;
-    padding: 0px 20px 35px 20px;
-    margin-left: -8px;
+    justify-content: center;
+    padding:inherit;
+    padding-bottom: 35px;
     align-items: center;
     border-radius: 0px;
 }
@@ -186,9 +151,9 @@ nav ul{
 .hebergements-articles-grid{
     display: flex;
     flex-direction: column;
-    margin: auto;
     padding:inherit;
     width: 100%;
+    margin-right: inherit;
     align-items: center;
     background-color: white;
     row-gap: 10px;
@@ -231,16 +196,15 @@ nav ul{
 }
 
     /* FOOTER */
-footer .container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 30px;
-}
-.menufooter{
-    width: 100%;
-}
-footer{
-    padding: 0px 30px 30px 10px;
-    width: 100%;
-}
+    footer .container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 30px;
+    }
+    .menufooter{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }

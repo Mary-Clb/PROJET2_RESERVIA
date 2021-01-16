@@ -10,6 +10,10 @@
 }
 body{
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    display: block;
 }
 header{
     display: flex;
@@ -28,22 +32,31 @@ img{
 .imglogo {
     margin-right: auto;
 }
-
 .sinscrire{
+    position: relative;
+    right: 20px;
+    left: 340px;
+    bottom: 35px;
     color: #0065FC;
     text-decoration: none;
-    margin-left: 66px;
 }
 .sinscrire:hover{
     font-weight: bold;
 }
-.menumobile{
+.menu{
+    width: 100%;
     display: flex;
-}
-nav ul{
+    align-items: flex-end;
     list-style-type: none;
+    margin-top: inherit;
+}
+nav li{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    width: 50%;
+}
+nav{
+    padding-right: 220px;
 }
 nav a{
     text-decoration: none;
@@ -54,38 +67,17 @@ nav a:hover{
 }
 .activites{
     color: black;
-    margin-left: 66px;
+    margin-left: 40px;
 }
 .hebergements{
     border-top:3px solid #0065FC;
-    padding-top: 20px;
+    padding-top: 10px ;
 }
-
-        /* ANCIENNE CONFIGURATION SANS LA DIV MENUMOBILE
-        nav ul{
-            list-style-type: none;
-            display: flex;
-            justify-content: space-between;
-        }
-        nav a{
-            text-decoration: none;
-            color:#0065FC;
-        }
-        nav a:hover{
-            font-weight: bold;
-        }
-        .hebergements{
-            border-top:3px solid #0065FC;
-            padding-top: 20px;
-        }
-        .activites{
-            color: black;
-            margin-left: 66px;
-        }
-        ANCIENNE CONFIGURATION SANS LA DIV MENUMOBILE*/
-
 .titre{
     margin: 25px 0px 30px 0px
+}
+.titre p{
+    font-size: 1em;
 }
 h1{
     font-size: 1.3em;
@@ -124,21 +116,18 @@ h2{
     color: white;
     font-family: 'Raleway-Bold';
     font-size: 1em;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-decoration: none;
 }
 .icosearch{
-    position: relative;
-    top:-10000px;
+    display: none;
 }
-
 
 /*Mise en page de la section "Filtres" + phrase d'info*/
 .filtres {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
     font-family: 'Raleway-Bold';
     margin-top: 30px;
     margin-bottom: 25px;
@@ -151,7 +140,7 @@ h2{
     border: 2px solid #c0c0c0;
     border-radius: 30px;
     height: 44px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .filtres p{
     padding-right: 10px;
@@ -203,6 +192,7 @@ a.filtrelien:hover{
 }
 .info p{
     margin: 5px 0px 0px 10px;
+    font-size: 1em;
 }
 
 /*Section Hébergements*/
@@ -215,11 +205,11 @@ a.filtrelien:hover{
     color: silver;
 }
 .sec-h2{
-    font-size: 0.9em;
+    font-size: 1.1em;
     font-family: 'Raleway-Bold';
 }
 .sec-p{
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 .hebergements-articles-grid{
         background-color: #f2f2f2;
@@ -241,11 +231,22 @@ a.filtrelien:hover{
     background-color: white;
     border: 3px solid white;
     border-radius: 15px;
-    line-height: 1.25;
     min-width: 150px;
     height: fit-content;
     padding-bottom: 5px;
     box-shadow: 0px 2px 5px silver;
+}
+.article p{
+
+    margin: inherit;
+    padding: 0px 0px 8px 5px;
+}
+.article h2{
+    margin: inherit;
+    padding: 2px 0px 3px 5px;
+}
+.star{
+    padding-left: 5px;
 }
 .article img{
     border-top-left-radius: 15px;
@@ -316,6 +317,18 @@ a.filtrelien:hover{
     min-width: 200px;
     box-shadow: 0px 2px 5px silver;
 }
+.article2 h2{
+    margin: inherit;
+    padding: 15px 0px 5px 0px;
+}
+.article2 p{
+    margin:inherit;
+    padding: 0px 0px 50px 0px;
+
+}
+.article2 .etoile, .etoile-v{
+    padding-bottom: 5px;
+}
 .article2 img{
     position: relative;
     border-top-left-radius: 15px;
@@ -368,7 +381,8 @@ a.filtrelien:hover{
     font-size: 1em;
 }
 .article3 h2{
-    margin-left: 10px;
+    margin: inherit;
+    padding: 10px 0px 5px 10px;
 }
 .titre-activites{
     grid-column: 1/2;
@@ -411,26 +425,25 @@ a.filtrelien:hover{
 /*footer*/
 footer{
     background-color: #f2f2f2;
-    margin: 5px -8px -8px -8px;
+    width: 100%;
 }
 
 .nav ul{
-    margin-left: -40px;
     line-height: 1.3em;
-    margin-bottom: 20px;
     list-style-type: none;
+    padding: inherit;
 }
 .nav a{
     text-decoration: none;
     color: black;
-    font-size: 0.8em;
+    font-size: 1em;
+    line-height: 1.5;
 }
 footer .container{
     display: flex;
-    align-items: center;
-
+    align-items: flex-start;
+    padding: 20px 0px 20px 20px;
 }
 .menufooter{
     width: 33%;
-    text-align: left;
 }
