@@ -40,6 +40,9 @@
 .article img{
     max-height: 110px;
 }
+.article2{
+    max-height: 250px;
+}
 .titre-activites{
         grid-column: 1/span 2;
 }
@@ -51,9 +54,6 @@
     height:100%;
 }
 .les-plus-populaires-flex{
-    min-width: 200px;
-}
-footer{
-    padding-left: 25px;
+    min-width: 20%;
 }
 
