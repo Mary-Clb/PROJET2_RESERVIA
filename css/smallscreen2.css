@@ -11,11 +11,11 @@ header{
     flex-direction: column;
     justify-content: center;
 }
-.imglogo{
-    padding-left: 5px;
+.logo{
+    padding-left: 10px;
 }
-.hautdepage{
-    padding-left: 5px;
+.top-page{
+    padding-left: 10px;
 }
 
     /*MENU MOBILE*/
@@ -39,7 +39,7 @@ nav ul{
     border-top: none;
     padding-top: inherit;
 }
-.menulien{
+.menu_link{
     display: flex;
     justify-content: center;
     border-bottom: 3px solid silver;
@@ -48,7 +48,7 @@ nav ul{
     padding-bottom: 15px;
     width: 100%;
 }
-.menulien:hover{
+.menu_link:hover{
     border-bottom: 3px solid #0065FC;
     padding-bottom: 15px;
 }
@@ -56,45 +56,37 @@ nav ul{
     margin: inherit;
 }
 
-
-
-
-.titre{
-    margin: inherit;
-}
-.titre h1{
+.top-page_title h1{
     font-family: 'Raleway-Bold';
     font-size: 1.5em;
     line-height: 1.25;
-    margin-bottom: inherit;
-}
-.titre p{
-    font-family: 'Raleway';
-    font-size: 0.9em;
 }
 
-    /* SECTION FORMULAIRE DE RECHERCHE*/
-.formulaire-recherche{
+    /* SECTION form-search_form DE RECHERCHE*/
+.form-search{
     margin-left: 10px;
     display: flex;
     margin-top: 35px;
 }
-.formulaire{
+.form-search_form{
     width: 60%;
 }
-.button{
+.form-search_button{
     position: relative;
     color:#0065FC;
     border-radius:15px;
     width:60px;
     margin-left: -15px; 
 }
-.filtres{
+.filters_title{
+    margin-top: 35px;
+    padding-left: 15px;
+}
+
+.filters{
     justify-content: inherit;
 }
-.titre{
-    line-height: 1.2em;
-}
+
 .icosearch{
     display: inherit;
     position: absolute;
@@ -102,30 +94,30 @@ nav ul{
     top:14px;
     left:20px;
 }
-.txt-search-hide{
+.txt-search_hide{
     display: none;
 }
 
-    /* SECTION FILTRES */
-.filtres{
+    /* SECTION filters */
+.filters{
     flex-wrap: wrap;
     width: 100%;
     margin: auto;
 }
-.filtre{
+.filters_block{
     position: relative;
     top: 50px;
     margin-top: 15px;
     margin-left: 15px;
 }
-.titrefiltre{
+.filters_title{
     position: absolute;
 }
 .info{
     margin-top: 80px;
 }
     /* SECTION LES PLUS POPULAIRES + HEBERGEMENTS*/
-.les-plus-populaires-flex{
+#bloc_les-plus-populaires{
     width: 100%;
     justify-content: center;
     padding:inherit;
@@ -133,22 +125,19 @@ nav ul{
     align-items: center;
     border-radius: 0px;
 }
-.article2{
+.les-plus-populaires_article{
     max-width: 90%;
 }
-.titreaside{
+.les-plus-populaires-title{
     width: 90%;
 }
-.ico-lineup{
-
-}
-.hebergements-et-aside-flex{
+.bloc_hebergements-et-les-plus-populaire{
     display: flex;
     flex-direction: column-reverse;
     height: inherit;
     width: 100%;
 }
-.hebergements-articles-grid{
+#bloc_hebergements{
     display: flex;
     flex-direction: column;
     padding:inherit;
@@ -158,20 +147,19 @@ nav ul{
     background-color: white;
     row-gap: 10px;
 }
-.article{
+.hebergements_article{
     max-width: 95%;
 }
-.titre-section-hebergements{
-    display: flex;
+.hebergements_title{
     margin-top: 40px;
-    margin-left: -85px;
+    padding-right: 70px;
 }
-.end-section-hebergements{
-    margin-right: 250px;
+.hebergements_text-end{
+    padding-right: 220px;
 }
 
     /* SECTION ACTIVITES MARSEILLE*/    
-.section-activites-marseille-grid{
+.activites-marseille{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -181,17 +169,18 @@ nav ul{
     margin-bottom: 50px;
     row-gap: 20px;
 }
-.titre-activites{
+.activites-marseille_title{
+    margin-bottom: 0px;
     margin-right: 60px;
     width: 80%;
 }
-.article3{
+.activites-marseille_article{
     width: 95%;
     height: 180px;
     padding-bottom: 25px;
     margin-top: 10px;
 }
-.article3 img{
+.activites-marseille_article img{
     height: 90%;
 }
 
