@@ -159,7 +159,7 @@ nav ul{
 }
 
     /* SECTION ACTIVITES MARSEILLE*/    
-.activites-marseille{
+#bloc_activites-marseille{
     display: flex;
     flex-direction: column;
     width: 100%;
