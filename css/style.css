@@ -1,3 +1,4 @@
+/*VUE DESKTOP*/
 @font-face{
     font-family:'Raleway';
         src:url('font/Raleway-Regular.ttf');
@@ -67,11 +68,13 @@ nav a:hover{
 }
 .activites{
     color: black;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .hebergements{
     border-top:3px solid #0065FC;
-    padding-top: 10px ;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .top-page_title{
     margin: 25px 0px 0px 0px;
@@ -81,11 +84,12 @@ nav a:hover{
     margin-top: 0px;
 }
 .top-page_title h1{
+    font-family: 'Raleway-Bold';
     margin-bottom: 10px;
     font-size: 1.45em;
 }
 
-/*Mise en page form-search_form*/
+/*Mise en page formulaire*/
 .form-search{
     display: flex;
     align-items: flex-start;
@@ -123,7 +127,7 @@ nav a:hover{
     display: none;
 }
 
-/*Mise en page de la section "filters_blocks" + phrase d'info*/
+/*Mise en page de la section "filters" + phrase d'info*/
 .filters {
     display: flex;
     align-items: flex-start;
@@ -169,7 +173,7 @@ nav a:hover{
     width:fit-content ;
 }
 
-/*Mise en pages des sections filters_blocks cliquables*/
+/*Mise en pages des blocs filters cliquables*/
 .filters_link{
     text-decoration: none;
     color:black;
@@ -325,13 +329,11 @@ a.filters_link:hover{
     box-shadow: 0px 2px 5px silver;
 }
 .les-plus-populaires_stars{
-    display: inline-block;
-    padding-top: 40px;
-
+    position: absolute;
+    bottom: 0px;
 }
 .les-plus-populaires_article h2{
     margin: inherit;
-    padding: 15px 0px 10px 0px;
 }
 .les-plus-populaires_article p{
     margin:inherit;
@@ -343,8 +345,14 @@ a.filters_link:hover{
     width: 45%;
     height: 100%;
     float: left;
-    margin-right: 15px;
+    padding-right: 10px;
 }
+.les-plus-populaire_article-text{
+    position: relative;
+    height: 125px;
+    padding: 10px 10px 10px 0px ;
+}
+
 .bloc_hebergements-et-les-plus-populaire{
     margin: auto;
     display: flex;

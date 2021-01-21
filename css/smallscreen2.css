@@ -1,6 +1,4 @@
     /*Responsive pour smartphone - en dessous de 768px */
-
-
 .container{
     max-width: 100%;
     margin: auto;
@@ -57,12 +55,11 @@ nav ul{
 }
 
 .top-page_title h1{
-    font-family: 'Raleway-Bold';
     font-size: 1.5em;
     line-height: 1.25;
 }
 
-    /* SECTION form-search_form DE RECHERCHE*/
+    /* SECTION FORMULAIRE DE RECHERCHE*/
 .form-search{
     margin-left: 10px;
     display: flex;
@@ -98,7 +95,7 @@ nav ul{
     display: none;
 }
 
-    /* SECTION filters */
+    /* SECTION FILTRES */
 .filters{
     flex-wrap: wrap;
     width: 100%;
@@ -126,7 +123,7 @@ nav ul{
     border-radius: 0px;
 }
 .les-plus-populaires_article{
-    max-width: 90%;
+    width: 95%;
 }
 .les-plus-populaires-title{
     width: 90%;
@@ -148,7 +145,7 @@ nav ul{
     row-gap: 10px;
 }
 .hebergements_article{
-    max-width: 95%;
+    width: 95%;
 }
 .hebergements_title{
     margin-top: 40px;
