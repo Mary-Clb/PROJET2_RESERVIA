@@ -28,10 +28,8 @@ img{
     margin:auto;
 }
 
-/*Position logo + liens de navigations*/
-.logo {
-    margin-right: auto;
-}
+/*Position liens de navigations*/
+
 .sinscrire{
     position: relative;
     right: 20px;
@@ -60,6 +58,7 @@ nav{
     padding-right: 220px;
 }
 nav a{
+    padding-top: 40px;
     text-decoration: none;
     color:#0065FC;
 }
@@ -72,7 +71,6 @@ nav a:hover{
 }
 .hebergements{
     border-top:3px solid #0065FC;
-    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -88,6 +86,14 @@ nav a:hover{
     margin-bottom: 10px;
     font-size: 1.45em;
 }
+.top-page{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.logo{
+    margin-left: 40px;
+    margin-top: 40px;
+}
 
 /*Mise en page formulaire*/
 .form-search{
@@ -100,8 +106,7 @@ nav a:hover{
     padding: 15px 15px 15px 15px;
     border: 1px solid #f2f2f2;
     border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
-    text-align: center;   
+    border-top-left-radius: 15px;  
 }
 .form-search_form{
     border: 1px solid #f2f2f2;
@@ -155,15 +160,15 @@ nav a:hover{
 }
 
 .filters_icone{
-    margin: 20px 5px;
     background-color: #DEEBFF;
     color: #0065FC;
     text-align: center;
-    padding: 15px 15px 15px 15px;
+    padding: 15px;
     border-radius: 50px;
     position: relative;
     margin-top: -3px;
     margin-left: -5px;
+    margin-right: 5px;
     font-size: 1em;
 }
 .icofam{
@@ -177,9 +182,15 @@ nav a:hover{
 .filters_link{
     text-decoration: none;
     color:black;
+    border-radius: 25px;
 }
 a.filters_link:hover{
-    color: darkred;
+    color: #0065FC;
+    font-size: 1.1em;
+    
+}
+.filters_block:hover{
+    background-color: #f2f2f2;
 }
 
 /*Phrase info*/
@@ -354,13 +365,13 @@ a.filters_link:hover{
 }
 
 .bloc_hebergements-et-les-plus-populaire{
-    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .les-plus-populaires_icone-title{
-    font-size: em;
     color: black;
     width: 25px;
 }
@@ -372,6 +383,8 @@ a.filters_link:hover{
 
 /*Section Activités*/
 #bloc_activites-marseille{
+    margin-left: 40px;
+    margin-right: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 20px auto auto 5px;
